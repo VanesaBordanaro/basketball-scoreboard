@@ -1,0 +1,95 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-image: url('basketball.jpg'); 
+    max-width: 100%;
+    background-size: cover;
+    font-family: 'Cursed Timer ULiL Font'; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'Cursed Timer ULiL Font';
+    src: url('CursedTimerUlil-Aznm.ttf');
+}
+
+#container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    text-align: center;
+    border: 2px solid transparent;
+    background-color: rgba(255, 228, 196, 0.288);
+  }
+
+  .board-title{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 2px 2px 4px rgba(240, 238, 232, 0.5);
+  }
+  
+  .home-points,
+  .guest-points {
+    margin: 1em;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 0.4em;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+  }
+
+  .buttons :hover{
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px rgba(252, 159, 45, 1);
+    transition: all 0.2s ease;
+  }
+
+  .button-text{
+    font-family: 'Cursed Timer ULiL Font';
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: rgb(252, 159, 45);
+    border: 2px solid #000;
+    border-radius: 5px;
+  }
+  
+  #reset{
+    position: absolute;
+    top: 500px;
+    left: 140px;
+  }
+
+  #reset :hover{
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px rgba(252, 159, 45, 1);
+    transition: all 0.2s ease;
+  }
+
+  #reset-btn{
+    margin-top: 20px;
+    letter-spacing: 0.125em;
+    padding: 10px 50px;
+    font-size: 20px;
+    background-color: #000;
+    color: rgb(252, 159, 45);
+    font-family: 'Cursed Timer ULiL Font';
+    border: 5px solid #000;
+    border-radius: 10px;
+  }
+  
