@@ -1,9 +1,46 @@
 # Basketball Scoreboard App
 
-A quick app built during the Scrimba JavaScript for free course.
+## Table of contents
 
-HTML and CSS
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My Process](#my-process)
+  - [Languages and Tools](#languages-and-tools)
+  - [Built With](#built-with)
+- [Author](#author)
 
-## Preview
+## Overview
+
+### Screenshot
+
+#### Desktop
 
 <img src="game.png" alt="preview"></a>
+
+### Links
+
+- [Live 🔗](https://vanesabordanaro.github.io/basketball-scoreboard/)
+
+## My process
+
+### Languages and Tools
+
+- HTML5
+- CSS
+- JavaScript
+
+### Built With
+
+- Semantic HTML5 markup
+- CSS Flexbox
+- Vanilla JavaScript
+
+
+### Acknowledgements
+
+- [Scrimba](https://scrimba.com)
+
+## Author
+
+- LinkedIn - [Vanesa Bordanaro](https://www.linkedin.com/in/veronica-vanesa-bordanaro/)
